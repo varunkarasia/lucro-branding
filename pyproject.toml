@@ -1,0 +1,9 @@
+[project]
+name = "lucro_branding"
+version = "0.1.0"
+description = "White-labels ERPNext with the Lucro brand"
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"

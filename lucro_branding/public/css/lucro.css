@@ -1,0 +1,59 @@
+/* Lucro brand for the ERPNext desk + portal.
+   Palette from docs/branding.md: teal #00444E, lime #A5C42F, coral #F8876E. */
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+
+:root {
+  --lucro-teal: #00444e;
+  --lucro-teal-dark: #032f36;
+  --lucro-lime: #a5c42f;
+  --lucro-coral: #f8876e;
+}
+
+body {
+  --primary: var(--lucro-teal);
+  --primary-color: var(--lucro-teal);
+  font-family: "Plus Jakarta Sans", "Inter", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background: var(--lucro-teal) !important;
+}
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .es-icon {
+  color: #fff !important;
+  fill: #fff !important;
+}
+
+/* Primary buttons */
+.btn-primary {
+  background-color: var(--lucro-teal) !important;
+  border-color: var(--lucro-teal) !important;
+}
+.btn-primary:hover {
+  background-color: var(--lucro-teal-dark) !important;
+  border-color: var(--lucro-teal-dark) !important;
+}
+
+/* Sidebar selection + links */
+.desk-sidebar .selected,
+a {
+  --sidebar-select-color: rgba(165, 196, 47, 0.18);
+}
+
+/* Login page */
+.for-login .page-card-head,
+.login-content {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.for-login .btn-login {
+  background-color: var(--lucro-teal) !important;
+}
+
+/* Indicator accent used sparingly */
+.indicator-pill.green {
+  background: rgba(165, 196, 47, 0.25);
+  color: #5c7213;
+}
