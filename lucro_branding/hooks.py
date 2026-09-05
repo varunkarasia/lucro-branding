@@ -11,8 +11,8 @@ app_logo_url = "/assets/lucro_branding/images/lucro-logo.png"
 # Injected on every desk + website page.
 # Bump ?v= on every CSS change — plain (non-bundle) assets get year-long
 # cache headers, so without this browsers keep stale styles indefinitely.
-app_include_css = ["/assets/lucro_branding/css/lucro.css?v=3"]
-web_include_css = ["/assets/lucro_branding/css/lucro.css?v=3"]
+app_include_css = ["/assets/lucro_branding/css/lucro.css?v=4"]
+web_include_css = ["/assets/lucro_branding/css/lucro.css?v=4"]
 app_include_js = ["/assets/lucro_branding/js/lucro.js?v=1"]
 
 # Login page + navbar branding
