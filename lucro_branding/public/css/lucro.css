@@ -10,6 +10,23 @@
   --lucro-coral: #f8876e;
 }
 
+/* Remap Frappe's blue scale to a Lucro teal ramp — icons, links, checkboxes,
+   selections, and focus states all derive from these tokens. */
+:root,
+[data-theme="light"],
+[data-theme="dark"] {
+  --blue-50: #f2f8f8;
+  --blue-100: #e4efef;
+  --blue-200: #c7dfe0;
+  --blue-300: #93bec0;
+  --blue-400: #4f9298;
+  --blue-500: #0f6673;
+  --blue-600: #0a5560;
+  --blue-700: #00444e;
+  --blue-800: #063a42;
+  --blue-900: #032f36;
+}
+
 body {
   --primary: var(--lucro-teal);
   --primary-color: var(--lucro-teal);
