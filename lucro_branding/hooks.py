@@ -13,6 +13,7 @@ app_logo_url = "/assets/lucro_branding/images/lucro-logo.png"
 # cache headers, so without this browsers keep stale styles indefinitely.
 app_include_css = ["/assets/lucro_branding/css/lucro.css?v=3"]
 web_include_css = ["/assets/lucro_branding/css/lucro.css?v=3"]
+app_include_js = ["/assets/lucro_branding/js/lucro.js?v=1"]
 
 # Login page + navbar branding
 website_context = {
