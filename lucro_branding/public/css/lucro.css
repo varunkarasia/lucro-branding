@@ -69,6 +69,14 @@ a {
   background-color: var(--lucro-teal) !important;
 }
 
+/* App tiles on /apps are SVG image files with baked-in Frappe blue —
+   shift their hue toward Lucro teal (greys are hue-neutral, unaffected). */
+.app-logo img,
+img.app-logo,
+.sidebar-item-icon img {
+  filter: hue-rotate(-22deg) saturate(0.55) brightness(0.82);
+}
+
 /* Indicator accent used sparingly */
 .indicator-pill.green {
   background: rgba(165, 196, 47, 0.25);
